@@ -9,9 +9,13 @@ Getting Started
 
 Please see the [Android source page](http://source.android.com/source/index.html) for building instructions.
 
-To initialize your local repository using my trees, use the following command:
+To initialize your local repository using VanirAOSP's trees, use the following command:
 
     repo init -u git://github.com/VanirAOSP/platform_manifest.git -b jb43
+
+If instead you want to directly track my working fork, use the following instead:
+
+    repo init -u git://github.com/jmarcet/VanirAOSP_platform_manifest.git -b jb43
 
 Then to sync up:
 

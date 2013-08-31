@@ -18,12 +18,16 @@
           fetch="https://github.com/" />
   <remote name="linaro"
           fetch="git://android.git.linaro.org/" />
+  <remote name="jmarcet"
+          fetch="https://github.com/jmarcet/" />
+  <remote name="private"
+          fetch="ssh://git@github.com/jmarcet" />
   <default revision="cm-10.2"
           sync-c="true"
           sync-j="12"
           remote="cm" />
 
-  <project path="manifest" name="platform_manifest" remote="vanir" revision="jb43" /> <!-- DO NOT MOVE - whine to Nuclearmistake -->
+  <project path="manifest" name="VanirAOSP_platform_manifest" remote="jmarcet" revision="jb43" />
   <project path="build" name="build" remote="vanir" revision="jb43" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="tools/BUILD_COMMAND_README" dest="BUILD_COMMAND_README" />
